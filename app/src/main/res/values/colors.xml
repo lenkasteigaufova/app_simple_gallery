@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="grey">#CFCFCF</color>
+    <color name="grey_stroke">#A8A8A8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="alpha_black">#54000000</color>
+    <color name="alpha_black__error">#48000000</color>
+
+    <color name="toolbar_gradient_start">#00393939</color>
+    <color name="toolbar_gradient_end">#ad272727</color>
+</resources>

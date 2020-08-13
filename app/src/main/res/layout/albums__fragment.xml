@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/albums__fragment__content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/albums_fragment__recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="64dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        tools:listitem="@layout/albums__fragment__album_item"
+        tools:itemCount="5"/>
+
+    <include
+        android:id="@+id/albums__fragment__content_states"
+        layout="@layout/content_states"/>
+
+</FrameLayout>
